@@ -1,7 +1,8 @@
 def square_array(array)
-  numbers = [1**1, 2**2, 3**3]
-
- square_array(numbers)
-
- new_numbers = [9**9, 10**10, 16**16, 25**25]
+counter = 0
+while counter < array length
+array [counter] = array [counter] ** 2
+counter += 1
+end
+array
 end
